@@ -6,8 +6,11 @@
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint --fix src/**/*.ts",
+    "build": "tsc",
     "start:dev": "nodemon -e ts  --exec \"tsc && node ./dist/main.js\"",
-    "start:prod": "tsc && node ./dist/main.js"
+    "start:prod": "tsc && node ./dist/main.js",
+    "docker:dev": "docker-compose up",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up -d"
   },
   "keywords": [],
   "author": "Bartolomej Kozorog",

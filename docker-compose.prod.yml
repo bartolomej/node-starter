@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  api:
+    image: api:prod
+    container_name: api
+    build:
+      target: production
+      context: .
+    restart: on-failure

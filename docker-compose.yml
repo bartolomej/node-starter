@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  api:
+    image: api:dev
+    container_name: api
+    build:
+      target: development
+      context: .
+    restart: always
+    volumes:
+      - ./:/app
+      - /app/node_modules
