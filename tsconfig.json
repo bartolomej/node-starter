@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "types": ["node"],
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+  },
+  "watchOptions": {
+    "excludeDirectories": ["**/node_modules", "dist"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
