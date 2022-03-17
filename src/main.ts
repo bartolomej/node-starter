@@ -1,3 +1,3 @@
-import { hello } from "./hello-world";
+import hello from './hello-world';
 
-process.stdout.write(hello())
+process.stdout.write(hello());
