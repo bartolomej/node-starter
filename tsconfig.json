@@ -4,7 +4,7 @@
     "module": "commonjs",
     "experimentalDecorators": true,
     "target": "es2017",
-    "types": ["node"],
+    "types": ["node", "jest"],
     "moduleResolution": "Node",
     "sourceMap": true,
     "outDir": "./dist",
